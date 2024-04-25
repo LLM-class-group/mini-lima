@@ -7,10 +7,10 @@
 - `LLaMA-Factory`：用于模型微调。
 - `Qwen-self-instruct`：数据集构建。 
 - `alpaca_eval`：用于模型评估。
-- `flash-attention`：详情描述。 
+- `flash-attention`：安装依赖。
 - `mini_lima`：评估配置文件夹。
 - `.gitmodules`：子模块依赖。
-- `demo.py`：示例脚本用法。
+- `demo.py`：微调前后模型输出对比程序。
 - `eval.sh`：评估脚本。
 - `finetune.sh`：微调脚本。 
 - `model_outputs.json`：（微调后）模型预测输出。
@@ -19,7 +19,7 @@
 
 1. 克隆仓库 (`git clone git@github.com:LLM-class-group/mini-lima.git`)
 2. 初始化子模块 (`git submodule update --init --recursive`)
-3. 构建数据集
+3. 构建数据集 (详见Qwen-self-instruct/README.md)
 4. 配置LLaMA-Factory
 5. 微调模型 (`./finetune.sh`)
 6. 评估模型 (`./eval.sh`)
