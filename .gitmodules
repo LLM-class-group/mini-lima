@@ -1,3 +1,6 @@
 [submodule "qwen_self_instruct"]
 	path = qwen_self_instruct
 	url = https://github.com/LLM-class-group/Qwen-self-instruct
+[submodule "Qwen-self-instruct"]
+	path = Qwen-self-instruct
+	url = https://githubfast.com/LLM-class-group/Qwen-self-instruct.git
