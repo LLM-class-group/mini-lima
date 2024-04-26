@@ -1,6 +1,3 @@
-[submodule "Qwen-self-instruct"]
-	path = Qwen-self-instruct
-	url = https://github.com/LLM-class-group/Qwen-self-instruct.git
 [submodule "flash-attention"]
 	path = flash-attention
 	url = https://github.com/Dao-AILab/flash-attention.git
@@ -10,3 +7,6 @@
 [submodule "LLaMA-Factory"]
 	path = LLaMA-Factory
 	url = https://github.com/hiyouga/LLaMA-Factory.git
+[submodule "Qwen-self-instruct"]
+	path = Qwen-self-instruct
+	url = https://github.com/LLM-class-group/Qwen-self-instruct.git
